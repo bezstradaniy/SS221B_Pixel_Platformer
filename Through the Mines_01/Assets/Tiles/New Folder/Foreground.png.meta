@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 3ef59ba1baf07544ca2556866fe6fbdf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Foreground_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 58
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46e1d219119bf148871745066ce21b1
+      internalID: -1404726284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8c45b516cf9f343894b0944dd91753
+      internalID: 1975190455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 3
+        width: 245
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -46.5, y: 171.5}
+        - {x: -122.5, y: 171.5}
+        - {x: -122.5, y: 166.5}
+        - {x: 17.5, y: -171.5}
+        - {x: 76.5, y: -171.5}
+        - {x: 122.5, y: 97.5}
+        - {x: 122.5, y: 132.5}
+        - {x: -9.5, y: 170.5}
+      - - {x: 35.5, y: 95.5}
+        - {x: 24.5, y: 106.5}
+        - {x: 19.5, y: 109.5}
+        - {x: 13.5, y: 112.5}
+        - {x: 11.5, y: 114.5}
+        - {x: 6.5, y: 116.5}
+        - {x: -0.5, y: 121.5}
+        - {x: -2.5, y: 123.5}
+        - {x: -6.5, y: 125.5}
+        - {x: -10.5, y: 128.5}
+        - {x: -11.5, y: 128.5}
+        - {x: -12.5, y: 130.5}
+        - {x: -16.5, y: 131.5}
+        - {x: -11.5, y: 129.5}
+        - {x: -10.5, y: 128.5}
+        - {x: -6.5, y: 128.5}
+        - {x: -5.5, y: 127.5}
+        - {x: 10.5, y: 123.5}
+        - {x: 22.5, y: 110.5}
+        - {x: 30.5, y: 109.5}
+        - {x: 31.5, y: 108.5}
+        - {x: 37.5, y: 108.5}
+        - {x: 37.5, y: 94.5}
+        - {x: 36.5, y: 95.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0e9307af9be45459693b0f50849e04
+      internalID: -1653512248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 278
+        width: 84
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3714c0abdb23f6a4f9579877c5f96d34
+      internalID: 344699013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 198
+        width: 108
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b07a49cfefc1754ca4cff005654c02f
+      internalID: -1010173389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Foreground_4: -1010173389
+      Foreground_0: -1404726284
+      Foreground_3: 344699013
+      Foreground_1: 1975190455
+      Foreground_2: -1653512248
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
