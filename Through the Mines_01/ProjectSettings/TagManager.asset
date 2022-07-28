@@ -9,6 +9,9 @@ TagManager:
   - Instant Kill
   - Key
   - Door
+  - Interact
+  - Chest
+  - Spike
   layers:
   - Default
   - TransparentFX
