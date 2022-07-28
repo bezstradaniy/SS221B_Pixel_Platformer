@@ -2860,6 +2860,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8381f0d30c8dada4d909f3ad69062b87, type: 3}
+--- !u!114 &268387470 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1003104293036694028, guid: 8381f0d30c8dada4d909f3ad69062b87, type: 3}
+  m_PrefabInstance: {fileID: 268387469}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &271176349
 GameObject:
   m_ObjectHideFlags: 0
@@ -10126,11 +10137,12 @@ PrefabInstance:
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MusicSlider","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Slider,
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LoadingPanel","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HealthBarImage","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LevelEndCamera","value":{"$content":14,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"Cinemachine.CinemachineVirtualCamera,
+        Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2634248529049112839, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2634248529049112839, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
@@ -10176,6 +10188,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[13]
       value: 
       objectReference: {fileID: 1543842767}
+    - target: {fileID: 2634248529049112839, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
+      propertyPath: _data._objectReferences.Array.data[14]
+      value: 
+      objectReference: {fileID: 268387470}
     - target: {fileID: 2634248529049112889, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
       propertyPath: m_RootOrder
       value: 0
