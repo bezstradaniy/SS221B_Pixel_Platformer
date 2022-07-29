@@ -170,6 +170,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3127962530794345442, guid: 9fa65820534dc8a46bf03f0d62887610, type: 3}
   m_PrefabInstance: {fileID: 1105101706}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &36394643 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6181249613632024510, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
+  m_PrefabInstance: {fileID: 591434616}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &50972385
 GameObject:
   m_ObjectHideFlags: 0
@@ -27535,7 +27546,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3369371732347070769, guid: 8b3cf5d243ee6834e9630dc4e5d8c684, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3369371732347070769, guid: 8b3cf5d243ee6834e9630dc4e5d8c684, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27753,11 +27764,12 @@ PrefabInstance:
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SoundSlider","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Slider,
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MusicSlider","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Slider,
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LoadingPanel","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HealthBarImage","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2634248529049112839, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2634248529049112839, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
@@ -27799,6 +27811,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[12]
       value: 
       objectReference: {fileID: 525172829}
+    - target: {fileID: 2634248529049112839, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
+      propertyPath: _data._objectReferences.Array.data[13]
+      value: 
+      objectReference: {fileID: 36394643}
     - target: {fileID: 2634248529049112889, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -27847,6 +27863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 2634248529473995563, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4c047c7538268eb4a9e8e158e46faf56, type: 3}
     - target: {fileID: 2634248529899308293, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -28279,7 +28299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1307695081696366554, guid: 9d585f0354a08ef499d1b635a6dfc505, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1307695081696366554, guid: 9d585f0354a08ef499d1b635a6dfc505, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32710,7 +32730,7 @@ Transform:
   - {fileID: 1390996140}
   - {fileID: 2035632462}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1358560985
 GameObject:
@@ -33431,7 +33451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3917124723183847622, guid: a4a86cc6b82968a43900cdb3401877e5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3917124723183847622, guid: a4a86cc6b82968a43900cdb3401877e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33876,7 +33896,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3369371732347070769, guid: 8b3cf5d243ee6834e9630dc4e5d8c684, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3369371732347070769, guid: 8b3cf5d243ee6834e9630dc4e5d8c684, type: 3}
       propertyPath: m_LocalPosition.x

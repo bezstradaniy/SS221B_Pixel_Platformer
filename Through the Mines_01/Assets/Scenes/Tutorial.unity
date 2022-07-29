@@ -49608,6 +49608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 2634248529473995563, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4c047c7538268eb4a9e8e158e46faf56, type: 3}
     - target: {fileID: 2634248529899308293, guid: f53b95dd7a2ba78408cc9cb6ee0e612e, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
