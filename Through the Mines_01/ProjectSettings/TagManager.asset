@@ -12,6 +12,7 @@ TagManager:
   - Interact
   - Chest
   - Spike
+  - Bat
   layers:
   - Default
   - TransparentFX
